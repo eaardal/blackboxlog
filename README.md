@@ -24,7 +24,8 @@ Minified:
 ```
 
 - Use console.log as you normally would: `console.log('some', { data: 'here' }, 123, true)`.
-- In Fiddler, make sure the proxy is enabled
+- In Fiddler, make sure the proxy is enabled.
+- If using a device, make sure the internet connection is set-up to go through your Fiddler proxy.
 - When you run your code, you should see requests coming in to the `http://mymachinename:8888` url in Fiddler with the console.log arguments in the request body.
 - You should also still see `console.log()` acting just as before in your browser console.
 
